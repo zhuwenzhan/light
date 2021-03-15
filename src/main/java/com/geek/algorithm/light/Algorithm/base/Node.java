@@ -1,4 +1,10 @@
-class Node {
+package com.geek.algorithm.light.Algorithm.base;
+
+import lombok.Data;
+import java.util.List;
+
+@Data
+public class Node {
     public int val;
     public List<Node> children;
 

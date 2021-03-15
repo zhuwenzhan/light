@@ -9,6 +9,11 @@ version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
 repositories {
+	maven{ url 'https://maven.aliyun.com/repository/public'}
+	maven { url 'https://maven.aliyun.com/repositories/jcenter' }
+	maven { url 'https://maven.aliyun.com/repositories/google' }
+	maven { url 'https://maven.aliyun.com/repository/central' }
+	maven { url "https://jitpack.io" }
 	mavenCentral()
 }
 
@@ -17,8 +22,9 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation 'org.projectlombok:lombok:1.16.18'
 }
 
-test {
-	useJUnitPlatform()
-}
+//test {
+//	useJUnitPlatform()
+//}

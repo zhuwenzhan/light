@@ -1,4 +1,12 @@
-class Solution {
+package com.geek.algorithm.light.Algorithm.homework.FirstWeek;
+
+import com.geek.algorithm.light.Algorithm.base.Node;
+
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
+
+class PreOrder {
     public List<Integer> preorder(Node root) {
         LinkedList<Node> stack = new LinkedList<>();
         LinkedList<Integer> output = new LinkedList<>();

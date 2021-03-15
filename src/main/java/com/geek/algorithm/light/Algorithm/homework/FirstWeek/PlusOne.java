@@ -1,7 +1,9 @@
+package com.geek.algorithm.light.Algorithm.homework.FirstWeek;
+
 /**
  * 66. 加一
  */
-class Solution {
+class PlusOne {
     public int[] plusOne(int[] digits) {
         int length = digits.length;
 

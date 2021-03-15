@@ -1,7 +1,9 @@
+package com.geek.algorithm.light.Algorithm.homework.FirstWeek;
+
 /**
  * 1. 两数之和
  */
-class Solution {
+class TwoSum {
     public int[] twoSum(int[] nums, int target) {
         int[] a = new int[2];
         int numberSize = nums.length;
