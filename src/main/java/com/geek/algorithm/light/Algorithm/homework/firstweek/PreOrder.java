@@ -1,4 +1,4 @@
-package com.geek.algorithm.light.Algorithm.homework.FirstWeek;
+package com.geek.algorithm.light.Algorithm.homework.firstweek;
 
 import com.geek.algorithm.light.Algorithm.base.Node;
 
